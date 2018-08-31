@@ -141,7 +141,12 @@ nav.orbit-bullets {
   margin: 0;
   top: -2rem;
 }
-
+.orbit-bullets button {
+  background-color: white;
+}
+.orbit-bullets button.is-active {
+  background-color: #455d7a;
+}
 .card-divider {
   background-color: #233142;
   color: white;
@@ -153,4 +158,16 @@ nav.orbit-bullets {
   text-align: center;
   background-color: #facf5a;
   color: white;
+}
+
+/***Me Page Style ***/
+#me {
+  height: 50vh;
+  background-color: #e9e2d0;
+}
+
+/***Footer Page Style***/
+#footer {
+  background-color: e9e2d0;
+  height: 30vh;
 }
