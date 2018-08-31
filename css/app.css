@@ -1,0 +1,156 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+
+/*** UTILITY ***/
+
+.text-center {
+  text-align: center;
+}
+
+/*primary-color */
+/*Background-Color */
+
+/* Fonts */
+/*CSS for each Fonts */
+a {
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+.marienda {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Merienda", cursive;
+  font-size: 3.5rem;
+}
+.marienda .red:hover {
+  color: #f95959;
+}
+.marienda .yellow:hover {
+  color: #facf5a;
+}
+.marienda .blue:hover {
+  color: #455d7a;
+}
+
+.chelaOne {
+  font-family: "Chela One", cursive;
+  text-align: center;
+  font-size: 200%;
+}
+.chelaOne .red:hover {
+  color: #f95959;
+}
+.chelaOne .yellow:hover {
+  color: #facf5a;
+}
+.chelaOne .blue:hover {
+  color: #455d7a;
+}
+
+.eczar {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Eczar", serif;
+  font-size: 4rem;
+}
+.eczar .red:hover {
+  color: #f95959;
+}
+.eczar .yellow:hover {
+  color: #facf5a;
+}
+.eczar .blue:hover {
+  color: #455d7a;
+}
+
+.pacifico {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+}
+.pacifico .red:hover {
+  color: #f95959;
+}
+.pacifico .yellow:hover {
+  color: #facf5a;
+}
+.pacifico .blue:hover {
+  color: #455d7a;
+}
+
+.orbitron {
+  font-size: 5rem;
+  height: 20vh;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3.25rem;
+}
+.orbitron .red:hover {
+  color: #f95959;
+}
+.orbitron .yellow:hover {
+  color: #facf5a;
+}
+.orbitron .blue:hover {
+  color: #455d7a;
+}
+
+/*** Menu Styles ***/
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.chelaOne {
+  font-family: "Chela One", cursive;
+}
+.chelaOne .yellow:hover {
+  color: #facf5a;
+}
+
+/*** HOME PAGE STYLES ***/
+
+#home {
+  background-color: #f95959;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.each-slide {
+  line-height: 100vh;
+}
+
+nav.orbit-bullets {
+  margin: 0;
+  top: -2rem;
+}
+
+.card-divider {
+  background-color: #233142;
+  color: white;
+  text-align: center;
+}
+
+/*** Project Page Styles***/
+.page-title {
+  text-align: center;
+  background-color: #facf5a;
+  color: white;
+}
